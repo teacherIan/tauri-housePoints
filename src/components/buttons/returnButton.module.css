@@ -1,0 +1,21 @@
+.button {
+    padding: 1px;
+    /* margin: 5px; */
+    color: #DFBBB1;
+    cursor: pointer;
+    border: #DFBBB1 2px solid;
+    /* font-weight: 900; */
+    width: 1vw;
+    height: 1vh;
+    font-size: 10px;
+
+}
+
+button:active {
+    border: #373F51 2px solid;
+    outline-color: #DFBBB1 !important;
+}
+
+button:focus {
+    outline-color: #DFBBB1 !important;
+}

@@ -1,0 +1,81 @@
+.container {
+    width: 90%;
+    display: flex;
+    height: 20vh;
+    color: #DFBBB1;
+    margin: 15px;
+    border-radius: 15px;
+    border: 1px solid #DFBBB1;
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        margin: 5px;
+        font-size: 10px;
+    }
+}
+
+.givenBy {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #DFBBB1
+}
+
+.house {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #DFBBB1
+}
+
+.name {
+    top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #DFBBB1
+}
+
+.other {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.points {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.grade {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.competition {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+
+}
+
+.created {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gender {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}

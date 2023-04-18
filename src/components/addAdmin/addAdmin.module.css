@@ -1,0 +1,84 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #373F51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: clamp(6px, 8px, 10px);
+    font-size: clamp(10px, 50px, 100px);
+    color: #DFBBB1;
+    z-index: 1000;
+}
+
+label {
+    font-size: clamp(10px, 30px, 50px);
+    color: #DFBBB1;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+form {
+    padding: calc(15px + 1.5vw + 1.5vh);
+    border: #DFBBB1 2px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    border-color: #DFBBB1;
+    min-width: 200px;
+    color: #DFBBB1;
+    background-color: #373F51;
+}
+
+input:focus {
+    outline-color: #DFBBB1;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    color: #DFBBB1;
+    cursor: pointer;
+    border: #DFBBB1 2px solid;
+    font-weight: 900;
+
+}
+
+button:active {
+    border: #373F51 2px solid;
+    outline-color: #DFBBB1 !important;
+}
+
+button:focus {
+    outline-color: #DFBBB1 !important;
+}
+
+i {
+    position: absolute;
+    top: clamp(5px 10px 15px);
+    left: clamp(5px 10px 15px);
+    text-align: center;
+    color: #DFBBB1;
+    font-size: clamp(10px, 50px, 100px);
+    margin: 25px;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 100;
+
+}

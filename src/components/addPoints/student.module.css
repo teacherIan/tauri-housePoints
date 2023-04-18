@@ -1,0 +1,36 @@
+.studentContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: #DFBBB1;
+    /* gap: 15px; */
+    border-top: 1px solid #DFBBB1;
+    padding: 3px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.house {}
+
+.first_name {
+    /* max-width: 25%; */
+    /* margin: auto; */
+}
+
+.last_name {
+    /* max-width: 25%; */
+    /* margin: auto; */
+}
+
+.points {
+    /* max-width: 25%; */
+    /* margin: auto; */
+}
+
+.hovered {
+    color: #373F51;
+    background-color: #DFBBB1
+}

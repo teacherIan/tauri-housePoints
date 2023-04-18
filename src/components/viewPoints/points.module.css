@@ -1,0 +1,28 @@
+.container {
+    /* background-color: red; */
+    margin-top: 120px;
+    width: 100vw;
+    height: 100%;
+}
+
+.pointsData {
+    color: #DFBBB1;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.radioInput {
+    min-width: 10px;
+    max-width: 50px;
+    width: 2vw;
+    background-color: #DFBBB1;
+}
+
+.houseLabel {
+    color: #DFBBB1;
+    text-align: center;
+}

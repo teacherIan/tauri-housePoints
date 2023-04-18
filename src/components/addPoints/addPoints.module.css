@@ -1,0 +1,29 @@
+.textInput {
+    width: 20vw;
+    display: block;
+    font-size: clamp(10px 30px 70px)
+}
+
+.radioInput {
+    min-width: 10px;
+    max-width: 50px;
+    width: 2vw;
+    background-color: #DFBBB1;
+}
+
+.houseLabel {
+    color: #DFBBB1;
+    text-align: center;
+}
+
+.label {
+    font-size: 15px;
+}
+
+.listContainer {
+    z-index: 2000;
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: violet;
+}
